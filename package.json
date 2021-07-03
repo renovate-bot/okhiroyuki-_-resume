@@ -1,0 +1,31 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx textlint \"docs/**\"",
+    "build": "asciidoctor-pdf -r asciidoctor-pdf-cjk -a pdf-theme=default-with-fallback-font docs/index.adoc -D dist",
+    "show": "open dist/index.pdf"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okhiroyuki/resume.git"
+  },
+  "author": "hiroyuki okada",
+  "devDependencies": {
+    "@textlint-ja/textlint-rule-no-synonyms": "^1.1.0",
+    "sudachi-synonyms-dictionary": "^8.0.0",
+    "textlint": "^12.0.0",
+    "textlint-filter-rule-allowlist": "^3.0.0",
+    "textlint-filter-rule-comments": "^1.2.2",
+    "textlint-plugin-asciidoctor": "^1.1.0",
+    "textlint-rule-preset-ja-technical-writing": "^6.0.0",
+    "textlint-rule-prh": "^5.3.0"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/okhiroyuki/resume/issues"
+  },
+  "homepage": "https://github.com/okhiroyuki/resume#readme"
+}

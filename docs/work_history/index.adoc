@@ -1,0 +1,17 @@
+= 職務経歴書
+:author:  Hiroyuki Okada
+:authorinitials: H.O
+:keywords:    resume
+:description: 職務経歴
+:revnumber:   1.0
+:lang:        ja
+:icons:       font
+:docinfo1:
+ifndef::toc2[:toc2:]
+
+// 章のナンバリングは1章から始める
+:numbered:
+
+include::now.adoc[leveloffset=+1]
+
+include::old.adoc[leveloffset=+1]
