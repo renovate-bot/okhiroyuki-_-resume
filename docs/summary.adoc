@@ -1,4 +1,4 @@
-# 概要
+# 職務経歴（概要）
 
 ## 個人データ
 
@@ -8,13 +8,13 @@
 ## ソフトウェア開発
 
 * コミュニケーションロボットの開発（5年）
-** ロボット制御ソフトウェアの設計・開発・保守
+** ロボット制御ソフトウェアの設計、開発、保守
 *** Android（Java）/ JUnit など
-** SDKの設計・開発・保守
+** SDKの技術選定、設計、開発、保守
 *** Node.js / JavaScript など
-* FaaSシステムの設計・開発（半年）
+* FaaSシステムの技術選定、設計、構築（半年）
 ** Go / Docker / kubernetes（Azure Kubernetes Service） など
-* 計測システムの設計・開発・運用（10年以上）
+* 計測システムの設計、開発、運用（10年以上）
 ** LabVIEW / C++（Arduino） / Python（Raspberry Pi） など
 * テクニカルドキュメントの作成（半年）
 * その他（プライベート開発）
@@ -25,8 +25,8 @@
 
 ## エンジニアリング採用
 
-* エンジニア（中途・新卒とも）採用に取り組み、書類審査・面接の経験
-* リファラルで二名を採用実績あり
+* エンジニア（中途・新卒とも）採用に取り組み、書類審査・面接を実施
+* リファラル採用の実績あり（二名）
 
 ## 業務外活動
 
@@ -35,7 +35,7 @@
 * 明星和楽 2018 SUMMER
 ** https://myojowaraku.net/2018fw/timetable/9164[「これからのロボット産業が目指す世界〜ロボットの強さと弱さ〜」]をテーマにしたセッションでオーガナイザーを努める
 * イメディオ・制作技術セミナー
-** https://www.sansokan.jp/events/eve_detail.san?H_A_NO=20446[Linino One （ArduinoYun互換） でIoT体験] を企画・当日の講師を担当
+** https://www.sansokan.jp/events/eve_detail.san?H_A_NO=20446[Linino One （ArduinoYun互換） でIoT体験] を企画、講師を担当
 * LabVIEW Tech Summit 2010
 ** 「住宅密集地におけるトンネル施工時の振動・騒音監視システム」でセッション登壇
 
@@ -44,28 +44,28 @@
 * https://developers-jp.googleblog.com/2015/11/google-hackfair-tokyo_20.html[Google HackFair@Tokyo]
 ** https://chrome.google.com/webstore/detail/blocklyduino-editor/ohncgafccgdbigbbikgkfbkiebahihmb[BlocklyDuino Editor] を出展
 * https://makezine.jp/event/mft2015/[Maker Faire Tokyo 2015]
-** https://makezine.jp/event/makers2015/coderdojo_japan/[CoderDojoの子どもたちによるピタゴラ装置] の企画・準備・当日運営を担当
+** https://makezine.jp/event/makers2015/coderdojo_japan/[CoderDojoの子どもたちによるピタゴラ装置] の企画、準備、運営を担当
 
 ### イベント運営
 
 * https://dojocon2017.coderdojo.jp/[DojoCon Japan 2017] / http://dojocon2016.coderdojo.jp/[DojoCon Japan 2016]
 ** 実行委員として、スポンサーチームのリーダーを担当
 * https://coderdojo-nishinomiya.info/[CoderDojo 西宮・梅田]
-** メンター、その後運営サポートも経験（５年）
+** メンター、その後運営サポートを経験（５年）
 * https://node-red-osaka.connpass.com/[Node-red User Group Japan @ Osaka]
-** コミュニティー管理（2年）
+** コミュニティーの立ち上げ、運営（2年）
 
-## 書作
+## 著作
 
 * https://www.amazon.co.jp/%E5%AE%9F%E8%B7%B5Node-RED%E6%B4%BB%E7%94%A8%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB-I%E3%83%BB-BOOKS-Node%E2%80%90RED%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3/dp/4777521117[実践Node-RED活用マニュアル] （2020年6月26日）
 ** Node‐REDユーザーグループジャパンでの共著
 ** IO 2019年の記事を加筆修正
 * https://www.amazon.co.jp/IO-2019%E5%B9%B4-09-%E6%9C%88%E5%8F%B7-%E9%9B%91%E8%AA%8C/dp/B07TQYRVYF[IO 2019年 09月号]
-** Androidoアプリ「RedMobile」で手軽に「IoTシステム」を執筆
+** 「Androidアプリ RedMobile で手軽にIoTシステム」を執筆
 
 ## 受賞経験
 
 * 大阪イノベーションハブ主催 第1回ものアプリハッカソン 優秀賞受賞（2013年1月）
 ** Arduinoを用いた接触型デバイスの開発を担当
 * NIアプリケーションコンテスト 航空宇宙部門 部門賞（2011年5​月）
-** 非接触センサーとLabViewを用いて開発した「高速走行下における路面平坦性計測システム」にて受賞
+** 非接触レーザー変位計とLabViewで構成された「 https://www.ni.com/ja-jp/innovations/case-studies/19/road-surface-shape-measurement-and-evaluation-system.html[路面​形状​計測・​評価​システム] 」で受賞

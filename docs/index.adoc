@@ -27,7 +27,3 @@ include::skill.adoc[]
 <<<
 
 include::work_history/index.adoc[]
-
-<<<
-
-include::etc.adoc[]
