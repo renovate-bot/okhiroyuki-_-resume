@@ -12,16 +12,15 @@
 *** Android（Java）/ JUnit など
 ** SDKの技術選定、設計、開発、保守
 *** Node.js / JavaScript など
-* FaaSシステムの技術選定、設計、構築（半年）
+* FaaSの技術選定、設計、構築（半年）
 ** Go / Docker / kubernetes（Azure Kubernetes Service） など
 * 計測システムの設計、開発、運用（10年以上）
 ** LabVIEW / C++（Arduino） / Python（Raspberry Pi） など
-* テクニカルドキュメントの作成（半年）
-* その他（プライベート開発）
+* その他（プライベート開発含む）
+** テクニカルドキュメントの作成（Asciidoctor）
 ** Androidアプリ開発（Cordova / Firebase / Vue.js / Flutter）
-** Node-REDのカスタムノード開発（Node.js）
-** Arduino向けのビジュアルプログラミング環境の開発（Web / Chrome Extention）
-** ドキュメントからのQnA自動抽出システムの開発（Python）
+** Node-REDのカスタムノード開発（Node-RED / Node.js）
+** Arduino向けビジュアルプログラミングツールの開発（Blockly / JavaScript）
 
 ## エンジニアリング採用
 
@@ -61,7 +60,7 @@
 ** Node‐REDユーザーグループジャパンでの共著
 ** IO 2019年の記事を加筆修正
 * https://www.amazon.co.jp/IO-2019%E5%B9%B4-09-%E6%9C%88%E5%8F%B7-%E9%9B%91%E8%AA%8C/dp/B07TQYRVYF[IO 2019年 09月号]
-** 「Androidアプリ RedMobile で手軽にIoTシステム」を執筆
+** 「Androidアプリ https://play.google.com/store/apps/details?id=com.okhiroyuki.redmobile&hl=ja&gl=US[RedMobile] で手軽にIoTシステム」を執筆
 
 ## 受賞経験
 

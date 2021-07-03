@@ -38,7 +38,7 @@ https://www.unirobot.com/unibo-business/[ロボット]のリリースを契機�
 * ロボットを活用した受託開発（要件定義、設計、開発）
 * 採用面談
 * 新規クラウド事業（unirobot cloud）の立ち上げ
-** FaaSサービスの技術選定、設計、構築を担当（Go, Kubernetes）
+** FaaSの技術選定、設計、構築を担当（Go, Kubernetes）
 
 ## ソフトウェア開発部（2016年4月〜2017年3月）
 
