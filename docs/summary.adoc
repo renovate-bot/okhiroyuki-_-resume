@@ -3,68 +3,69 @@
 ## 個人データ
 
 * 氏名：岡田 裕行（Hiroyuki Okada）
-* Web: https://github.com/okhiroyuki[GitHub] / https://qiita.com/okhiroyuki[Qiita] / https://www.okhiroyuki.com/[okhiroyuki.com] / https://www.slideshare.net/okhiroyuki[SlideShare] / 
+* GitHub: https://github.com/okhiroyuki
+* Qiita: https://qiita.com/okhiroyuki
+* プライベートポートフォリオ:  https://www.okhiroyuki.com/
+* 特徴：ハードウェア・ソフトウェア両方が絡み合うプロダクトの開発を手がける中で、自然とレイヤーの異なる領域をまたがった仕様策定、技術検討、合意形成を行ってきました。
 
-## ソフトウェア開発
+## プロダクト開発経験
 
-* コミュニケーションロボットの開発（5年）
-** ロボット制御ソフトウェアの設計、開発、保守
-*** Android（Java）/ JUnit など
-** SDKの技術選定、設計、開発、保守
-*** Node.js / JavaScript など
-* FaaSの技術選定、設計、構築（半年）
-** Go / Docker / kubernetes（Azure Kubernetes Service） など
-* 計測システムの設計、開発、運用（10年以上）
-** LabVIEW / C++（Arduino） / Python（Raspberry Pi） など
-* その他（プライベート開発含む）
-** テクニカルドキュメントの作成（Asciidoctor）
-** Androidアプリ開発（Cordova / Firebase / Vue.js / Flutter）
-** Node-REDのカスタムノード開発（Node-RED / Node.js）
-** Arduino向けビジュアルプログラミングツールの開発（Blockly / JavaScript）
+ソフトウェア、ハードウェア、クラウドサービスなど複数のプロダクト開発を経験してきました。
 
-## エンジニアリング採用
+* コミュニケーションロボット「ユニボ」footnote:[コミュニケーションロボット「ユニボ」: https://www.unirobot.com/unibo-business/]（5年）
+** 音声認識・音声合成・顔認証技術に加え、自社開発の会話エンジン（API）と連携することで、人と自然な会話を目指した卓上型ロボットを開発
+** プロトタイプから量産、リリースまでを経験
+** 主なプログラミング言語：Android（Java）
+* コミュニケーションロボットのデベロッパー向け開発キット（5年）
+** 非エンジニアでもロボットが簡単に制御できることをコンセプトに、OSSローコードプログラミングツールであるNode-REDをベース技術に選定、カスタマイズ
+** デベロッパーが作成したプログラムをパッケージ配布を実現させるための仕様設計、機能実装などを担当
+** 主なプログラミング言語： Node.js / JavaScript
 
-* エンジニア（中途・新卒とも）採用に取り組み、書類審査・面接を実施
-* リファラル採用の実績あり（二名）
+* unirobot cloudfootnote:[unirobot cloud: https://www.unirobot.com/unirobot-cloud/]（半年）
+
+** 新規事業「unirobot cloud」の立ち上げメンバーとして、コールセンターなどの会話からサーバーサイド・ビジネスロジックを実行できるFaaSの技術選定から構築まで対応
+** 主なプログラミング言語： Go
+** 開発プラットフォーム： Azure Kubernetes Service
 
 ## 業務外活動
 
-### イベント・セミナー登壇
+### プロダクト開発
 
-* 明星和楽 2018 SUMMER
-** https://myojowaraku.net/2018fw/timetable/9164[「これからのロボット産業が目指す世界〜ロボットの強さと弱さ〜」]をテーマにしたセッションでオーガナイザーを努める
-* イメディオ・制作技術セミナー
-** https://www.sansokan.jp/events/eve_detail.san?H_A_NO=20446[Linino One （ArduinoYun互換） でIoT体験] を企画、講師を担当
-* LabVIEW Tech Summit 2010
-** 「住宅密集地におけるトンネル施工時の振動・騒音監視システム」でセッション登壇
+プライベートでもプロダクトをリリースしており、ユーザーから高い評価を得ています。
 
-### イベント出展
+* モバイルアプリ開発（2年以上）
 
-* https://developers-jp.googleblog.com/2015/11/google-hackfair-tokyo_20.html[Google HackFair@Tokyo]
-** https://chrome.google.com/webstore/detail/blocklyduino-editor/ohncgafccgdbigbbikgkfbkiebahihmb[BlocklyDuino Editor] を出展
-* https://makezine.jp/event/mft2015/[Maker Faire Tokyo 2015]
-** https://makezine.jp/event/makers2015/coderdojo_japan/[CoderDojoの子どもたちによるピタゴラ装置] の企画、準備、運営を担当
+** コミュニケーションロボットの知見を生かし、Node-REDサーバーをAndroid上で起動できるモバイルアプリ「RedMobile footnote:[RedMobile: https://play.google.com/store/apps/details?id=com.okhiroyuki.redmobile]」を開発
+** Google Play Storeでの評価は4.7（アクティブユーザー1500名以上）
+** モバイル開発フレームワークにCordova、フロントをVue.jsで構成
 
-### イベント運営
+* Arduino向けビジュアルプログラミングツールの開発（2年）
+** CoderDojo（子どものためのプログラミング道場）での活動をとおして、電子工作を手軽に取り扱える仕組みを提供すべく、Arduino向けのビジュアルプログラミングツール「BlocklyDuino Editor footnote:[BlocklyDuino Editor: https://chrome.google.com/webstore/detail/blocklyduino-editor/ohncgafccgdbigbbikgkfbkiebahihmb]」を開発
+** Chromeアプリとして配布することで、世界中のユーザーを獲得（アクティブユーザー1万人以上、評価4.5以上）
 
-* https://dojocon2017.coderdojo.jp/[DojoCon Japan 2017] / http://dojocon2016.coderdojo.jp/[DojoCon Japan 2016]
-** 実行委員として、スポンサーチームのリーダーを担当
-* https://coderdojo-nishinomiya.info/[CoderDojo 西宮・梅田]
-** メンター、その後運営サポートを経験（５年）
-* https://node-red-osaka.connpass.com/[Node-red User Group Japan @ Osaka]
-** コミュニティーの立ち上げ、運営（2年）
+### コミュニティー活動
 
-## 著作
+次のコミュニティーに関して、運営サイドとして積極的に活動してきました。
 
-* https://www.amazon.co.jp/%E5%AE%9F%E8%B7%B5Node-RED%E6%B4%BB%E7%94%A8%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB-I%E3%83%BB-BOOKS-Node%E2%80%90RED%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3/dp/4777521117[実践Node-RED活用マニュアル] （2020年6月26日）
-** Node‐REDユーザーグループジャパンでの共著
-** IO 2019年の記事を加筆修正
-* https://www.amazon.co.jp/IO-2019%E5%B9%B4-09-%E6%9C%88%E5%8F%B7-%E9%9B%91%E8%AA%8C/dp/B07TQYRVYF[IO 2019年 09月号]
-** 「Androidアプリ https://play.google.com/store/apps/details?id=com.okhiroyuki.redmobile&hl=ja&gl=US[RedMobile] で手軽にIoTシステム」を執筆
+* CoderDojoでの主な活動（５年）
 
-## 受賞経験
+** CoderDojo 西宮・梅田footnote:[CoderDojo 西宮・梅田: https://coderdojo-nishinomiya.info/]では、メンターとして子どもたちのプログラミングをサポートするほか、運営側もサポート
+**  CoderDojoを支える運営者やメンターたちを対象にしたカンファレンス「DojoCon Japan 2017footnote:[DojoCon Japan 2017: https://dojocon2017.coderdojo.jp/]/ DojoCon Japan 2016footnote:[DojoCon Japan 2016: http://dojocon2016.coderdojo.jp/]」では、活動に賛同・協賛していただくスポンサーの募集、交渉などを担当
+** Maker Faire Tokyo 2015footnote:[Maker Faire Tokyo 2015: https://makezine.jp/event/mft2015/]では、プログラミングと電子工作を組み合わせ、ピタゴラ装置を子どもたちが協力して作るワークショップfootnote:[CoderDojoの子どもたちによるピタゴラ装置: https://makezine.jp/event/makers2015/coderdojo_japan/] を企画、開催
 
-* 大阪イノベーションハブ主催 第1回ものアプリハッカソン 優秀賞受賞（2013年1月）
-** Arduinoを用いた接触型デバイスの開発を担当
-* NIアプリケーションコンテスト 航空宇宙部門 部門賞（2011年5​月）
-** 非接触レーザー変位計とLabViewで構成された「 https://www.ni.com/ja-jp/innovations/case-studies/19/road-surface-shape-measurement-and-evaluation-system.html[路面​形状​計測・​評価​システム] 」で受賞
+[NOTE]
+====
+CoderDojoは、アイルランドからスタートした無料かつボランティアが主導する、コミュニティーを基盤とした子ども向けプログラミングクラブの世界的運動です。
+====
+
+* Node-RED User Groupでの主な活動（2年）
+
+** Node-RED User Group @ Osakafootnote:[Node-red User Group Japan @ Osaka: https://node-red-osaka.connpass.com/] コミュニティーの立ち上げ、運営
+** Node‐REDユーザーグループジャパンのメンバーとして書籍出版
+*** 実践Node-RED活用マニュアルfootnote:[実践Node-RED活用マニュアル: https://www.amazon.co.jp/dp/4777521117/ref=cm_sw_em_r_mt_dp_G7K02RH2FPX0T07BXJQX]（2020年6月26日）
+*** IO 2019年 09月号footnote:[IO 2019年 09月号: https://www.amazon.co.jp/dp/B07TQYRVYF/ref=cm_sw_em_r_mt_dp_TJEM0S754RFZVZK6RA9Y]（Node-REDの連載記事）
+
+[NOTE]
+====
+Node-RED User Groupは、OSSローコードプログラミングツールである「Node-RED」の普及を目的としたコミュニティーです。
+====

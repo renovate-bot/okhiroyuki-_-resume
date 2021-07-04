@@ -8,22 +8,17 @@
 :icons:       font
 :docinfo1:
 :numbered!:
-:toc2:
 
 // 各章はH1から始めているので、一つ下げる
 :leveloffset: 1
 
 // 章のナンバリングは1章から始める
-:numbered:
-
-<<<
+// :numbered:
 
 include::summary.adoc[]
 
-<<<
-
 include::skill.adoc[]
 
-<<<
+include::work_history/now.adoc[]
 
-include::work_history/index.adoc[]
+include::work_history/old.adoc[]
