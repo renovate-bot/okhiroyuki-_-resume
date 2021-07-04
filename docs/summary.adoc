@@ -6,7 +6,7 @@
 * GitHub: https://github.com/okhiroyuki
 * Qiita: https://qiita.com/okhiroyuki
 * プライベートポートフォリオ:  https://www.okhiroyuki.com/
-* 特徴：ハードウェア・ソフトウェア両方が絡み合うプロダクトの開発を手がける中で、自然とレイヤーの異なる領域をまたがった仕様策定、技術検討、合意形成を行ってきました。
+* 特徴：ハードウェア・ソフトウェア両方が絡み合うプロダクトの開発を手がける中で、レイヤーの異なる領域をまたがった仕様策定、技術検討、合意形成を行ってきました。
 
 ## プロダクト開発経験
 
@@ -19,9 +19,9 @@
 ** 非エンジニアでもロボットが簡単に制御できることをコンセプトに、OSSローコードプログラミングツールであるNode-REDをベース技術に選定、カスタマイズ
 ** 主なプログラミング言語： Node.js / JavaScript
 
-* unirobot cloudfootnote:[unirobot cloud: https://www.unirobot.com/unirobot-cloud/]（半年）
+* unirobot cloudfootnote:[unirobot cloud: https://www.unirobot.com/unirobot-cloud/]（6ヶ月）
 
-** 新規事業「unirobot cloud」の立ち上げメンバーとして、コールセンターなどの会話からサーバーサイド・ビジネスロジックを実行できるFaaSの技術選定、構築を対応
+** 新規事業「unirobot cloud」の立ち上げメンバーとして、サーバーサイド・ビジネスロジックを実行できるFaaSの技術選定、構築
 ** 主なプログラミング言語： Go
 ** 開発プラットフォーム： Azure Kubernetes Service
 
@@ -39,7 +39,7 @@
 
 * Arduino向けビジュアルプログラミングツールの開発（2年）
 ** CoderDojo（子どものためのプログラミング道場）での活動をとおして、電子工作を手軽に取り扱える仕組みを提供すべく、Arduino向けのビジュアルプログラミングツール「BlocklyDuino Editor footnote:[BlocklyDuino Editor: https://chrome.google.com/webstore/detail/blocklyduino-editor/ohncgafccgdbigbbikgkfbkiebahihmb]」を開発
-** Chromeアプリとして配布することで、世界中のユーザーを獲得（アクティブユーザー1万人以上、評価4.5以上）
+** Chromeアプリとして配布することで、世界中のユーザーを獲得（評価4.5以上、アクティブユーザー1万人以上）
 
 ### コミュニティー活動
 
@@ -47,7 +47,7 @@
 
 * CoderDojoでの主な活動（５年）
 
-** CoderDojo 西宮・梅田footnote:[CoderDojo 西宮・梅田: https://coderdojo-nishinomiya.info/]では、メンターとして子どもたちのプログラミングをサポートするほか、運営側もサポート
+** CoderDojo 西宮・梅田footnote:[CoderDojo 西宮・梅田: https://coderdojo-nishinomiya.info/]では、メンターとして子どもたちのプログラミングをサポートするほか、運営をサポート
 **  CoderDojoを支える運営者やメンターたちを対象にしたカンファレンス「DojoCon Japan 2017footnote:[DojoCon Japan 2017: https://dojocon2017.coderdojo.jp/]/ DojoCon Japan 2016footnote:[DojoCon Japan 2016: http://dojocon2016.coderdojo.jp/]」では、活動に賛同・協賛していただくスポンサーの募集、交渉などを担当
 ** Maker Faire Tokyo 2015footnote:[Maker Faire Tokyo 2015: https://makezine.jp/event/mft2015/]では、プログラミングと電子工作を組み合わせ、ピタゴラ装置を子どもたちが協力して作るワークショップfootnote:[CoderDojoの子どもたちによるピタゴラ装置: https://makezine.jp/event/makers2015/coderdojo_japan/] を企画、開催
 
