@@ -22,3 +22,5 @@ include::skill.adoc[]
 include::work_history/now.adoc[]
 
 include::work_history/old.adoc[]
+
+include::etc.adoc[]

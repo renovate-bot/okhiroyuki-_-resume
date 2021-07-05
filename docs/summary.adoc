@@ -2,13 +2,10 @@
 
 ## プロフィール
 
-* 氏名：岡田 裕行（Hiroyuki Okada）
+* 氏名: 岡田 裕行（Hiroyuki Okada）
 * GitHub: https://github.com/okhiroyuki
 * Qiita: https://qiita.com/okhiroyuki
 * プライベートポートフォリオ:  https://www.okhiroyuki.com/
-* 得意なこと
-** ハードウェア・ソフトウェアが絡み合うプロダクトの開発
-** 新規開発における技術検討、仕様策定
 
 ## プロダクト開発経験
 
