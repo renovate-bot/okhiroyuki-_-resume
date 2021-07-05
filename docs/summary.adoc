@@ -1,12 +1,14 @@
 # 職務経歴（概要）
 
-## 個人データ
+## プロフィール
 
 * 氏名：岡田 裕行（Hiroyuki Okada）
 * GitHub: https://github.com/okhiroyuki
 * Qiita: https://qiita.com/okhiroyuki
 * プライベートポートフォリオ:  https://www.okhiroyuki.com/
-* 特徴：ハードウェア・ソフトウェア両方が絡み合うプロダクトの開発を手がける中で、レイヤーの異なる領域をまたがった仕様策定、技術検討、合意形成を行ってきました。
+* 得意なこと
+** ハードウェア・ソフトウェアが絡み合うプロダクトの開発
+** 新規開発における技術検討、仕様策定
 
 ## プロダクト開発経験
 
@@ -34,12 +36,12 @@
 * モバイルアプリ開発（2年以上）
 
 ** コミュニケーションロボットの知見を生かし、Node-REDサーバーをAndroid上で起動できるモバイルアプリ「RedMobile footnote:[RedMobile: https://play.google.com/store/apps/details?id=com.okhiroyuki.redmobile]」を開発
-** Google Play Storeでの評価は4.7（アクティブユーザー1500名以上）
+** Google Playで配布し、世界中でユーザーを獲得（2021年7月時点で評価4.4以上、アクティブユーザー1500名以上）
 ** モバイル開発フレームワークにCordova、フロントをVue.jsで構成
 
 * Arduino向けビジュアルプログラミングツールの開発（2年）
 ** CoderDojo（子どものためのプログラミング道場）での活動をとおして、電子工作を手軽に取り扱える仕組みを提供すべく、Arduino向けのビジュアルプログラミングツール「BlocklyDuino Editor footnote:[BlocklyDuino Editor: https://chrome.google.com/webstore/detail/blocklyduino-editor/ohncgafccgdbigbbikgkfbkiebahihmb]」を開発
-** Chromeアプリとして配布することで、世界中のユーザーを獲得（評価4.5以上、アクティブユーザー1万人以上）
+** Chromeアプリとして配布し、世界中でユーザーを獲得（2021年7月時点で評価4.5以上、アクティブユーザー1万人以上）
 
 ### コミュニティー活動
 
