@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npx textlint \"docs/**\"",
-    "build": "asciidoctor-pdf -r asciidoctor-pdf-cjk -a pdf-theme=default-with-fallback-font docs/resume.adoc -D dist",
+    "build": "asciidoctor-pdf -a scripts=cjk -a pdf-theme=default-with-fallback-font docs/resume.adoc -D dist",
     "show": "open dist/resume.pdf"
   },
   "repository": {
