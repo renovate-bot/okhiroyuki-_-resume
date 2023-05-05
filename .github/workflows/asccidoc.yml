@@ -6,9 +6,9 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -21,18 +21,18 @@ jobs:
     runs-on: ubuntu-latest
     name: Build AsciiDoctor
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - name: Check out code
-      uses: actions/checkout@v2
-    # Output command using asciidoctor-action
-    - name: Build AsciiDoc step
-      id: documents
-      uses: Analog-inc/asciidoctor-action@v1.2.2
-      with:
-        shellcommand: "asciidoctor-pdf -a scripts=cjk -a pdf-theme=default-with-fallback-font docs/resume.adoc -D dist"
-    # Use the output from the documents step
-    - name: Save AsciiDoc step
-      uses: actions/upload-artifact@v1
-      with:
-        name: Output-document
-        path: ./dist/
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Check out code
+        uses: actions/checkout@v3
+      # Output command using asciidoctor-action
+      - name: Build AsciiDoc step
+        id: documents
+        uses: Analog-inc/asciidoctor-action@master
+        with:
+          shellcommand: "asciidoctor-pdf -a scripts=cjk -a pdf-theme=default-with-fallback-font docs/resume.adoc -D dist"
+      # Use the output from the documents step
+      - name: Save AsciiDoc step
+        uses: actions/upload-artifact@v3
+        with:
+          name: Output-document
+          path: ./dist/
