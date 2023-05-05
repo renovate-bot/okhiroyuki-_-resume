@@ -1,12 +1,10 @@
 # frozen_string_literal: true
 
 source "https://rubygems.org"
-ruby "2.7.3"
+ruby "3.2.2"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-# gem "rails"
-gem "asciidoctor"
-gem "asciidoctor-pdf"
-gem "rouge"
-gem 'asciidoctor-pdf-cjk'
+gem "asciidoctor", "2.0.18"
+gem "asciidoctor-pdf", "2.3.7"
+gem "rouge", "4.1.0"
