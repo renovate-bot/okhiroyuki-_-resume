@@ -6,59 +6,13 @@
 * Linkedin: https://www.linkedin.com/in/okhiroyuki/
 * GitHub: https://github.com/okhiroyuki
 
-## プロダクト開発経験
+## 業務要約
 
-これまで複数のプロダクト開発をエンジニアとプロダクトオーナーの両方で経験してきました。
+土木計測コンサルタント、ハードウェアスタートアップを経て、現在医療系スタートアップでプロダクトマネージャーとしてプロダクト開発に従事しています。
 
-* 薬局内で稼働するIoT端末群の開発とそれらより得られる処方箋情報を各サービスに提供するデータ基盤の構築
-** 安価で入手性のよいシングルボードコンピュータを用いたIoT端末群の開発にソフトウェアエンジニアとして従事
-** IoT端末の安定稼働、安定提供に向けた中長期目線での開発をプロダクトオーナーとして推進するとともに、データ基盤の構築に向けた立ち上げをリード
-* コミュニケーションロボット「ユニボ」footnote:[コミュニケーションロボット「ユニボ」: https://www.unirobot.com/unibo-business/]（5年）
-** 音声認識・音声合成・顔認証技術に加え、自社開発の会話エンジン（API）と連携する人と自然な会話を目指した卓上型ロボットの開発、主にロボット開発をリード
-* コミュニケーションロボットのデベロッパー向け開発キット（5年）
-** 非エンジニアでもロボットが簡単に制御できることをコンセプトに、OSSローコードプログラミングツールであるNode-REDをベース技術に選定、カスタマイズ、開発リード
-* unirobot cloudfootnote:[unirobot cloud: https://www.unirobot.com/unirobot-cloud/]（6ヶ月）
-** 新規事業「unirobot cloud」の立ち上げメンバーとして、サーバーサイド・ビジネスロジックを実行できるFaaSの技術選定を担当
+現職である https://www.kakehashi.life/[株式会社カケハシ] では、薬局内の処方箋情報をクラウドへアップロードするIoT端末群の開発・運用を行っています。さらに、同チームはカケハシ内のサービスへ処方箋データを提供するための基盤構築も担っています。
+同社には2021年入社しており、入社直後１年間はエンジニアとして、その後はプロダクトマネージャーとしてプロダクト開発を進めています。
 
-## 業務外活動
+前職である https://www.unirobot.com/[ユニロボット株式会社] では、音声認識・音声合成に加え自社の会話エンジン技術を組み合わせた https://www.unirobot.com/unibo-business/[コミュニケーションロボット「ユニボ」] の立ち上げから開発に携わり、その後ロボット事業全般を統括しました。
 
-### プロダクト開発
-
-プライベートでもプロダクトをリリースしており、ユーザーから高い評価を得ています。
-
-* モバイルアプリ開発（3年以上）
-
-** コミュニケーションロボットの知見を生かし、Node-REDサーバーをAndroid上で起動できるモバイルアプリ「RedMobile footnote:[RedMobile: https://play.google.com/store/apps/details?id=com.okhiroyuki.redmobile]」を開発
-** Google Playで配布し、世界中でユーザーを獲得（2021年7月時点で評価4.4以上、アクティブユーザー1500名以上）
-** モバイル開発フレームワークにCordova、フロントをVue.jsで構成
-
-* Arduino向けビジュアルプログラミングツールの開発（2年）
-** CoderDojo（子どものためのプログラミング道場）での活動をとおして、電子工作を手軽に取り扱える仕組みを提供すべく、Arduino向けのビジュアルプログラミングツール「BlocklyDuino Editor footnote:[BlocklyDuino Editor: https://chrome.google.com/webstore/detail/blocklyduino-editor/ohncgafccgdbigbbikgkfbkiebahihmb]」を開発
-** Chromeアプリとして配布し、世界中でユーザーを獲得（2021年7月時点で評価4.5以上、アクティブユーザー1万人以上）
-
-### コミュニティー活動
-
-次のコミュニティーに関して、運営サイドとして積極的に活動してきました。
-
-* CoderDojoでの主な活動（５年）
-
-** CoderDojo 西宮・梅田footnote:[CoderDojo 西宮・梅田: https://coderdojo-nishinomiya.info/]では、メンターとして子どもたちのプログラミングをサポートするほか、運営をサポート
-**  CoderDojoを支える運営者やメンターたちを対象にしたカンファレンス「DojoCon Japan 2017footnote:[DojoCon Japan 2017: https://dojocon2017.coderdojo.jp/]/ DojoCon Japan 2016footnote:[DojoCon Japan 2016: http://dojocon2016.coderdojo.jp/]」では、活動に賛同・協賛していただくスポンサーの募集、交渉などを担当
-** Maker Faire Tokyo 2015footnote:[Maker Faire Tokyo 2015: https://makezine.jp/event/mft2015/]では、プログラミングと電子工作を組み合わせ、ピタゴラ装置を子どもたちが協力して作るワークショップfootnote:[CoderDojoの子どもたちによるピタゴラ装置: https://makezine.jp/event/makers2015/coderdojo_japan/] を企画、開催
-
-[NOTE]
-====
-CoderDojoは、アイルランドからスタートした無料かつボランティアが主導する、コミュニティーを基盤とした子ども向けプログラミングクラブの世界的運動です。
-====
-
-* Node-RED User Groupでの主な活動（2年）
-
-** Node-RED User Group @ Osakafootnote:[Node-red User Group Japan @ Osaka: https://node-red-osaka.connpass.com/] コミュニティーの立ち上げ、運営
-** Node‐REDユーザーグループジャパンのメンバーとして書籍出版
-*** 実践Node-RED活用マニュアルfootnote:[実践Node-RED活用マニュアル: https://www.amazon.co.jp/dp/4777521117/ref=cm_sw_em_r_mt_dp_G7K02RH2FPX0T07BXJQX]（2020年6月26日）
-*** IO 2019年 09月号footnote:[IO 2019年 09月号: https://www.amazon.co.jp/dp/B07TQYRVYF/ref=cm_sw_em_r_mt_dp_TJEM0S754RFZVZK6RA9Y]（Node-REDの連載記事）
-
-[NOTE]
-====
-Node-RED User Groupは、OSSローコードプログラミングツールである「Node-RED」の普及を目的としたコミュニティーです。
-====
+土木計測コンサルタント時代は、構造物モニタリングや動的なデータ計測を得意としつつ、独学ながら取り組んだ計測システムの開発が業務効率化や新規事業に繋がり、最終的には研究開発部門の立ち上げにまで至りました。
