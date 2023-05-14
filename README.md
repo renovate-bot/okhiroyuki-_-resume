@@ -5,8 +5,15 @@
 - homebrew
 - anyenv(rbenv/nodenv)
 - ruby-build
+- pre-commit
 
 ## Development
+
+### pre-commit
+
+```zsh
+pre-commit install
+```
 
 ### Ruby
 
@@ -21,7 +28,6 @@ bundle install
 
 ```zsh
 nodenv install
-npm ci
 ```
 
 ## Build
