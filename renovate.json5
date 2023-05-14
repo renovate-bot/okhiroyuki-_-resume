@@ -1,0 +1,44 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  extends: [
+    // デフォルトのベース設定
+    "config:base",
+    // pre-commit hook の更新
+    "enablePreCommit",
+    // PR の同時作成数の制限を解除
+    ":prHourlyLimitNone",
+    // PR の１時間における作成数の制限を解除
+    ":prConcurrentLimitNone",
+    // タイムゾーンを日本時間に設定
+    "timezone(Asia/Tokyo)",
+  ],
+  // バージョンはピン止めする
+  rangeStrategy: "pin",
+  // major の更新はマージしない
+  major: {
+    automerge: false,
+  },
+  // ロックファイルのメンテナンスを有効化して自動マージする
+  lockFileMaintenance: {
+    enabled: true,
+    automerge: true,
+  },
+  // 毎日自動マージする
+  automergeSchedule: ["before 2am"],
+  packageRules: [
+    {
+      // pre-commit は自動マージする
+      automerge: true,
+      matchManagers: ["pre-commit"],
+    },
+    {
+      // minor, patch, pin, digest の更新は自動マージする
+      automerge: true,
+      matchUpdateTypes: ["minor", "patch", "pin", "digest"],
+      // 更新が安定するまで3日間の猶予を持つ
+      stabilityDay: 3,
+      // ステータスチェックが完了するまで PR 作成は待機する
+      prCreation: "not-pending",
+    },
+  ],
+}
