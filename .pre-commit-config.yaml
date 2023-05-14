@@ -1,0 +1,29 @@
+repos:
+    -   repo: https://github.com/pre-commit/pre-commit-hooks
+        rev: v4.4.0
+        hooks:
+        -   id: trailing-whitespace
+        -   id: end-of-file-fixer
+        -   id: check-yaml
+        -   id: double-quote-string-fixer
+        -   id: requirements-txt-fixer
+    # textlint
+    -   repo: local
+        hooks:
+          - id: textlint
+            name: textlint
+            language: node
+            types: [file]
+            files: \.(adoc)$
+            entry: textlint --fix
+            require_serial: false
+            additional_dependencies:
+                [
+                    "textlint@13.3.2",
+                    "textlint-filter-rule-allowlist@4.0.0",
+                    "textlint-rule-preset-ja-technical-writing@7.0.0",
+                    "textlint-filter-rule-comments@1.2.2",
+                    "@proofdict/textlint-rule-proofdict@3.1.2",
+                    "@ynitto/textlint-plugin-asciidoc@0.0.3",
+                    "@textlint/ast-node-types@13.3.2"
+                ]

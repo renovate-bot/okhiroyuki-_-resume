@@ -1,6 +1,6 @@
 # Rules
 meta:
-  rules: 
+  rules:
     - https://github.com/prh/rules
     - https://github.com/azu/promises-book/blob/master/prh.yml
 
@@ -280,4 +280,3 @@ rules:
   - expected: コード補完
     pattern:  コード保管
     prh: コード補完の間違いと思われます。
-

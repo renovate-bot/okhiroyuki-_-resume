@@ -1,28 +1,30 @@
 {
   "plugins": [
-    "asciidoctor"
+    "@ynitto/asciidoc"
   ],
   "filters": {
-        "comments": true,
-        "allowlist": {
-            "allow": [
-                ".*imagesdir.*",
-                "路面平坦性計測",
-                "関西地区責任者",
-                ".*工事.*"
-            ]
-        }
+    "comments": true,
+    "allowlist": {
+      "allow": [
+        "関西地区責任者",
+        "情報処理方法",
+        "土木学会田中賞"
+      ]
+    }
   },
   "rules": {
-    "@textlint-ja/no-synonyms": true,
     "preset-ja-technical-writing": {
-      "no-exclamation-question-mark": false,
-      "sentence-length": false
+      "sentence-length": false,
+      "ja-no-mixed-period": false,
+      "no-exclamation-question-mark": {
+        "allowHalfWidthExclamation": false,
+        "allowFullWidthExclamation": false,
+        "allowHalfWidthQuestion": true,
+        "allowFullWidthQuestion": false
+      }
     },
-    "prh": {
-      "rulePaths": [
-        "./rules/prh.yml"
-      ]
+    "@proofdict/proofdict": {
+      "dictURL": "https://azu.github.io/proof-dictionary/"
     }
   }
 }

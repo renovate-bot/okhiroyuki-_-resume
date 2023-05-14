@@ -1,0 +1,23 @@
+root = true
+
+[*]
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.md]
+indent_size = space
+indent_size = 2
+
+[*.adoc]
+indent_size = space
+indent_size = 2
+
+[*.html]
+indent_size = space
+indent_size = 2
+
+[{*.sh,bin/*}]
+indent_size = space
+indent_size = 2

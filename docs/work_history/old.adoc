@@ -22,7 +22,7 @@
 * 次世代コミュニケーションロボットに向けたハードウェアの選定・技術検討
 * 新規クラウド事業となった https://www.unirobot.com/unirobot-cloud/[コミュニケーションサービス統合プラットフォーム「unirobot cloud」] の立ち上げ（出願特許 https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202103012068807580&rel=1#%7B%22category%22%3A%220%22%2C%22keyword%22%3A%22%5C%22201850000438186861%5C%22%22%7D[人とコミュニケーションを行うシステム及びそのためのプログラム]）
 * 株式会社トレタが提供するhttps://toreta.in/toreta-yoyakuban/[トレタ予約番サービス]の共同開発（出願特許 https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202203018208081947&rel=1#%7B%22category%22%3A%220%22%2C%22keyword%22%3A%22%5C%22201850000438186861%5C%22%22%7D[情報処理システム、情報処理方法及び情報処理プログラム]）
-* その他受託開発案件での技術対応
+* 受託開発案件での技術対応
 * エンジニア採用
 
 | スキル
@@ -122,7 +122,7 @@
 | 主な業務
 |
 * 計測システムの新規開発案件をメインで担当
-* 当時開発した路面​形状​計測・​評価​システムで https://www.ni.com/ja-jp/innovations/case-studies/19/road-surface-shape-measurement-and-evaluation-system.html[2011年の NIアプリケーションコンテスト 航空宇宙部門 部門賞]を受賞。
+* 当時開発した路面形状計測・評価システムで https://www.ni.com/ja-jp/innovations/case-studies/19/road-surface-shape-measurement-and-evaluation-system.html[2011年の NIアプリケーションコンテスト 航空宇宙部門 部門賞]を受賞。
 
 | スキル
 | NI LAbView / C・C++
@@ -167,7 +167,7 @@
 | 主な業務
 |
 * 主に道路橋のモニタリング、動的な計測を担当
-* 平成１７年土木学会田中賞を受賞した「下植野高架橋の横梁移植」業務では、Webを用いた構造物リアルタイムモニタリングシステムを設計、開発、運営
+* 土木学会田中賞を受賞した「下植野高架橋の横梁移植」業務では、Webを用いた構造物リアルタイムモニタリングシステムを設計、開発、運営
 
 | スキル
 | NI LAbView
