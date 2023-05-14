@@ -36,7 +36,7 @@
       automerge: true,
       matchUpdateTypes: ["minor", "patch", "pin", "digest"],
       // 更新が安定するまで3日間の猶予を持つ
-      stabilityDay: 3,
+      stabilityDays: 3,
       // ステータスチェックが完了するまで PR 作成は待機する
       prCreation: "not-pending",
     },
