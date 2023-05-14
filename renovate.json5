@@ -4,7 +4,7 @@
     // デフォルトのベース設定
     "config:base",
     // pre-commit hook の更新
-    "enablePreCommit",
+    ":enablePreCommit",
     // PR の同時作成数の制限を解除
     ":prHourlyLimitNone",
     // PR の１時間における作成数の制限を解除
