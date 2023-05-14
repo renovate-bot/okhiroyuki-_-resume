@@ -10,7 +10,7 @@
     // PR の１時間における作成数の制限を解除
     ":prConcurrentLimitNone",
     // タイムゾーンを日本時間に設定
-    "timezone(Asia/Tokyo)",
+    ":timezone(Asia/Tokyo)",
   ],
   // バージョンはピン止めする
   rangeStrategy: "pin",
