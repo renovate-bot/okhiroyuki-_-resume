@@ -6,7 +6,7 @@ GEM
       public_suffix (>= 2.0.2, < 6.0)
     afm (0.2.2)
     asciidoctor (2.0.20)
-    asciidoctor-pdf (2.3.7)
+    asciidoctor-pdf (2.3.9)
       asciidoctor (~> 2.0)
       concurrent-ruby (~> 1.1)
       matrix (~> 0.4)
@@ -57,7 +57,7 @@ PLATFORMS
 
 DEPENDENCIES
   asciidoctor (= 2.0.20)
-  asciidoctor-pdf (= 2.3.7)
+  asciidoctor-pdf (= 2.3.9)
   rouge (= 4.1.2)
 
 RUBY VERSION
